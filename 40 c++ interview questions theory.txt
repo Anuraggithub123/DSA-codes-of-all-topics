@@ -1,0 +1,274 @@
+1. What are the main characteristics of C++ as a programming language?
+Sample answer:
+
+C++ is a general-purpose programming language, which means it supports software in a wide variety of application domains. 
+
+It’s also considered a multi-paradigm programming language, which means it supports object-oriented, procedural, functional, and generic programming frameworks.
+
+Other notable characteristics are its portability, power, and complexity, which makes it one of the more difficult programming languages to learn.
+
+2. What are the main differences between C and C++?
+Sample answer:
+
+C and C++ share many similarities in terms of their syntax, compilation, and basic memory. However, there are a few key differences between the two languages:
+
+C is a procedural programming language, whereas C++ is a multi-paradigm language that supports procedural programming as well as other programming philosophies
+C does not support object-oriented programming concepts like polymorphism and encapsulation, unlike C++
+C++ supports several new features like namespace, reference variable functionality, operator overloading, and function overloading
+3. What are the strengths of C++?
+Sample answer:
+
+C++ has many strengths, including:
+
+Portability: C++ programs can be used across different operating systems
+Multi-paradigm frameworks: C++ offers great programming flexibility, supporting object-oriented, generic, and procedural programming frameworks
+Scalability: C++ is a powerful programming language that can be used to create resource-intensive programs as well as simpler, low-level programs
+4. What is a class in C++?
+Sample answer:
+
+Classes are the fundamental building blocks of object-oriented programming in C++. They are a user-defined data type representing a group of related objects. Classes hold member functions and variables together. 
+
+5. What is an object in C++?
+Sample answer:
+
+Objects are real-world entities that have a state (some kind of data) and behavior (functionality). Together, related objects make up a class.
+
+6. What is encapsulation in C++?
+Sample answer:
+
+Encapsulation is an object-oriented programming concept that binds together data and functions into a single unit. This protects information from outside interference and forms a key part of the data hiding process. Encapsulation is implemented using classes and access modifiers. 
+
+7. What is abstraction in C++?
+Sample answer:
+
+Abstraction is an object-oriented programming concept that displays only essential information to users while hiding the background details. Its purpose is to reduce programming complexity and is implemented using classes and access modifiers. 
+
+8. What is the difference between a class and a structure in C++?
+Sample answer:
+
+Class and structure (or struct) are virtually the same in C++, except for the default accessibility setting of member variables and methods. In a class, they are set as private; in a structure, they are set as public.
+
+9. What is inheritance in C++?
+Sample answer:
+
+Inheritance is an object-oriented programming concept in which one class acquires the properties and characteristics of another class. This allows users to easily reuse and extend existing attributes or behaviors. 
+
+10. What are the three types of access specifiers in C++?
+Sample answer:
+
+Access specifiers define how the attributes and methods of a class can be accessed. The three types in C++ are:
+
+Public: All class members can be accessed from anywhere in the program
+Private: Class members can only be accessed by the member functions inside the class
+Protected: Class members can be accessed by the member functions inside the class or by any subclass of that class
+11. What is the difference between a constructor and a destructor in C++?
+Sample answer:
+
+A constructor helps to initialize class objects, whereas a destructor is used to delete class objects. They are both called automatically: when a new object is created, the constructor immediately allocates memory; when one is destroyed, the destructor deallocates memory. 
+12. What is a storage class in C++?
+Sample answer:
+
+Storage classes define specific features about variables or functions. These features include visibility, which refers to the accessibility of a variable from different areas in the program, and lifetime, which is the duration to which the variable remains active. 
+
+ 13. What is the function of the keyword ‘volatile’ in C++?
+Sample answer:
+
+The volatile keyword is a qualifier that can be applied to a variable to inform the compiler that the variable value may change at any time. The main reason for using volatile is to prevent optimizations on objects occurring in the source code. 
+
+14 intermediate C++ interview questions
+Intermediate C++ questions should be used for mid-level roles, where candidates already have some professional experience with the programming language.
+
+ intermediate C++ interview questions
+14. What are the weaknesses of C++?
+Sample answer:
+
+There are a few drawbacks to using C++. These include:
+
+Its steep learning curve: C++ is a challenging programming language to learn, especially for junior developers
+Security: The presence of pointers and global variables in C++ pose a relatively high security threat
+Memory management: Manual memory allocation can be time-consuming
+Pointers: Pointers are complex and will disrupt performance if implemented incorrectly
+15. How is memory managed in C++?
+Sample answer:
+
+C++ supports dynamic memory, which means memory must be managed manually by the user rather than automatically with a garbage collector feature. Memory is allocated and deallocated dynamically using the ‘new’ and ‘delete’ operators respectively.
+
+16. What are the five types of inheritance in C++?
+Sample answer:
+
+There are five different types of inheritance, each one with its own set of behaviors. These include:
+
+Single inheritance, where the derived class is inherited from only one base class
+Multiple inheritance, where the derived class is inherited from two or more base classes
+Multilevel inheritance, where the derived class is inherited from another derived class
+Hybrid inheritance, where two or more different types of inheritance are used together
+Hierarchical inheritance, where two or more derived classes are derived from a single base class
+17. What is polymorphism in C++?
+Sample answer:
+
+Polymorphism is an object-oriented programming concept that allows a function or object to behave differently in different scenarios. In C++, polymorphism can be invoked either at runtime or compile-time.
+
+18. What are the different types of variables in C++?
+Sample answer:
+
+Variable types determine the size and layout of the variable’s memory, the values that can be stored within that memory, and the operations that can be applied to the variable. Some of the main variable types in C++ are:
+
+char: stores single characters
+int: stores integers
+float: stores floating-point values 
+double: stores floating-point values with twice as much precision as float
+void: represents the absence of a type
+bool: stores a value that is either ‘true’ or ‘false’
+19. What is the difference between an array and a list in C++?
+Sample answer:
+
+Arrays and lists are both used to store information, but there are a few key differences between them. These include:
+
+An array has a fixed size, whereas a list has a variable size
+An array supports random access using indexes, whereas a list supports sequential access where the user has to traverse through the elements to find a specific index
+An array stores elements as contiguous memory, whereas a list can store elements in any memory location
+20. What is function overloading in C++?
+Sample answer:
+
+Function overloading is the process whereby two or more functions with the same name are given different parameters; it’s a type of polymorphism. The purpose of function overloading is to improve program readability and consistency as well as optimize memory.
+
+ 21. What is namespace in C++?
+Sample answer:
+
+A namespace is a declarative region that allows entities like classes, objections, and functions to be grouped under one name. This divides the global scope into narrower sub-scopes, thereby preventing unwanted collisions.
+
+22. What is the function of the ‘auto’ keyword in C++?
+Sample answer:
+
+The auto keyword informs the compiler to use the initialization expression of a declared variable to deduce its type. It can be used instead of variable types and is generally considered a more robust, efficient alternative with superior performance.
+
+23. What are the differences between a shallow copy and a deep copy in C++?
+Sample answer:
+
+Shallow copies and deep copies both record information about an object, but a deep copy provides a greater level of detail. While a shallow copy only copies the pointers, a deep copy contains a copy of any data structure in the original object.
+
+24. What is the purpose of the ‘friend’ function in C++?
+Sample answer:
+
+The friend function is used to access the private and protected data of class members, despite being specified outside of that class. It’s used when a class’ private data needs to be accessed without using objects within the class.
+
+25. What is function overriding in C++?
+Sample answer:
+
+Function overriding is the process in which a derived class is given the same function as its related base class. It’s an example of compile-time polymorphism and helps save memory space and improve code reusability.
+
+26. What is the difference between an external iterator and an internal iterator in C++?
+Sample answer:
+
+Iterators are objects that point to elements inside a container. External iterators are attached to objects from a separate class, whereas internal iterators are implemented by the member functions of the object’s class. 
+
+27. What is multithreading in C++?
+Sample answer:
+
+Multithreading is the process of running two or more tasks concurrently to improve the performance and responsiveness of a program. It’s generally used when the program involves several different resource-intensive tasks.
+
+13 advanced C++ interview questions
+The advanced C++ interview questions below are recommended for senior C++ roles, where the candidate has extensive experience with the programming language.
+
+advanced C++ interview questions
+28. How can C++ programs be optimized?
+Sample answer:
+
+There are several techniques for optimizing C++ programs, such as to: 
+
+Use better algorithms
+Reduce memory allocation
+Use better compilers
+Use optimal data structures
+Use multithreading
+29. What is the ‘diamond problem’ that occurs with multiple inheritance in C++?
+Sample answer:
+
+The ‘diamond problem’ occurs during multiple inheritance when two parent classes inherit from the same grandparent class and both of those parent classes are then inherited by a single child class, mirroring the shape of a diamond. This leads to ambiguities at compile-time.
+
+The diamond problem can be resolved using virtual inheritance. By specifying the base classes as virtual, issues with incorrect copying during the inheritance process can be sidestepped.
+
+30. How is exception handling performed in C++?
+Sample answer:
+
+Exception handling is the process of separating code that deals with exceptional circumstances from the rest of the program. It’s implemented using three keywords, which are often used together:
+
+try identifies a block of code for which certain exceptions will be activated  
+catch catches an exception in the code 
+throw throws an exception when a problem is detected
+31. What are the different methods for passing parameters to functions in C++?
+Sample answer:
+
+There are several parameter passing techniques in C++. The two most common methods are:
+
+Pass by value: Changes to the parameter do not affect data in the calling function
+Pass by reference: Changes to the parameter are also applied to the original variable
+32. What is a virtual destructor in C++?
+Sample answer:
+
+Virtual destructors ensure that memory deallocation is carried out in a logical, hierarchical order when derived subclasses are deleted. 
+
+They’re generally used when an instance of a derived class is deleted through a pointer to the base class. Virtual destructors help free up space and prevent memory leaks.
+
+33. What is type erasure in C++ and how is it implemented?
+Sample answer:
+
+Type erasure is the process of hiding different concrete types behind a single, generic user interface. There are several methods for performing type erasure with C++. The most common ones include:
+
+Function pointers
+Virtual functions
+void*
+34. What are the different types of preprocessor directives in C++?
+Sample answer:
+
+Preprocessor directives give instructions to the compiler on how to process information before compilation begins. They are used for the management of macros, file inclusion, or conditional compilation purposes.
+
+Three of the most common preprocessor directives are:
+
+#define, which creates a macro 
+#undef, which undefines existing macros
+#pragma, which turns on or off specific special purpose features
+35. How is multithreading performed in C++?
+Sample answer:
+
+To create a new thread, the user must first use the ‘#include <thread>’ header to bring up access to the ‘std::thread’ object. Then, a callback mechanism needs to be attached to the original thread to create the new thread. These define the relationships between the threads.
+
+The callback mechanisms available are:
+
+Function pointer
+Function object
+Lambda function
+36. What is the difference between variable declaration and variable definition in C++?
+Sample answer:
+
+Declaration provides the compiler with basic information about a variable’s name and value type. Definition provides the compiler with complete information including fields, methods, and storage location. 
+
+Definition involves memory allocation, whereas declaration doesn’t. Variables and functions can only be defined once, but they can be declared multiple times. 
+
+37. What are the advantages and disadvantages of recursion in C++?
+Sample answer:
+
+Recursion refers to when a function is called within the same function. On one hand, recursion reduces time and effort spent coding, adds clarity, and is great at resolving specific issues such as tree traversal. The downside is that it uses more memory and runs relatively slowly.
+
+38. What are the main differences between a list and a vector in C++?
+Sample answer:
+
+Lists and vectors are both sequential containers, but they have several differences. These include:
+
+Vectors store elements in contiguous memory locations, whereas lists store elements in non-contiguous memory locations
+Vectors provide random access, whereas lists don’t
+Vectors are thread-safe, whereas lists aren’t
+Vectors require more memory to be stored than vectors
+39. What is meant by RAII in the context of C++?
+Sample answer:
+
+RAII is an idiom that stands for ‘Resource Acquisition Is Initialization’. It ensures that resources are correctly released at the end of a scope, even if an exception occurs. The purpose of RAII is to prevent resource leaks and provide a basic exception safety guarantee.
+
+40. What is the difference between early binding and late binding in C++?
+Sample answer:
+
+The main differences between early binding and late binding are:
+
+Early binding occurs at compile-time, whereas late binding occurs at runtime
+Early binding uses the class to resolve method calling, whereas late binding uses the object to resolve method calling
+Early binding is typically faster than late binding
